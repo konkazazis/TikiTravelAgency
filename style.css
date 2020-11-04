@@ -1,0 +1,250 @@
+body {
+  margin-top:0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/*------------------------NavBar-----------------------*/
+#navbar-ul{
+  list-style-type: none;
+  background-color:white;
+  margin-top: 1%;
+}
+
+#navbar section {
+  margin-right: 13%;
+  margin-top: 3%;
+  float: right;
+}
+
+#navbar section div  {
+  display: inline-flex;
+}
+
+#navbar section div li {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#navbar-ul li a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#tiki-logo {
+  margin-left: 4%;
+  width: 8%;
+  height: 8%;
+}
+
+#home-gall {
+  font-family: 'Roboto';
+  font-size: 150%;
+}
+
+#home-gall li a:hover {
+  border-bottom: 1px solid black;
+}
+
+#about-contact {
+  font-family: 'Roboto';
+  font-size: 150%;
+}
+
+#about-contact li a:hover {
+  border-bottom: 1px solid black;
+}
+
+/*----------------------HomePage---------------------*/
+.firstimg {
+  width: 100%;
+  height: 500%;
+  padding-bottom: 1.5%;
+  filter: blur(5px);
+  -webkit-filter: blur(8px)
+}
+
+#header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0%;
+  border-bottom: 1px solid black;
+  margin-top: 0;
+}
+
+#header h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto';
+  color: white;
+  font-size: 800%;
+  border: 1px solid white;
+  padding: 5% 30%;
+}
+
+#message #sech1 {
+  font-size: 300%;  
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#message #h2 {
+  margin-bottom: 10%;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+  border-bottom: 1px solid black;
+}
+
+#img-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid black;
+}
+
+#img-div img {
+  width: 30%;
+  height: 40%;
+}
+
+#img-div button {
+  border: none;
+  cursor: pointer;
+}
+
+#offers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid black ;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#offers h2 {
+  font-family: 'Roboto';
+}
+
+#sub-div {
+  text-align: center;
+  font-family: 'Roboto';
+  margin-top: 10%;
+}
+
+#sub-div #email {
+  border-radius: 5px;
+  border-width: 3px;
+  margin-bottom: 10px;
+}
+
+#sub-div #submit {
+  margin-bottom: 8%;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+}
+
+#sub-div #submit:hover {
+  cursor: pointer;
+}
+
+/*---------------------Gallery-----------------------*/
+#gallery {
+  display: grid;
+  height: 1000px;
+  width: 110%;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  padding-top: 40px;
+}
+ #gallery img {
+  width: 400px;
+  height: 300px;
+ }
+
+/*--------------------AboutPage---------------------*/
+#h1 {
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 8%;
+  margin-top: 5%;
+  border-bottom: 1px solid black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#about h2 {
+  display: inline-flex;
+  font-family: 'Roboto';
+  font-size:xx-large;
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+#about {
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*-----------------ContactPage---------------------*/
+#form {
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30%;
+}
+#contact #h2 {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+/*------------------Footer--------------------------*/
+#footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer #tikiltd {
+  display: inline;
+  margin-left: 10%;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 200;
+}
+
+#footer #links {
+  display: inline;
+  margin-right: 10%;
+  color: white;
+  font-family: 'Roboto';
+}
+
+#footer #links a {
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+}

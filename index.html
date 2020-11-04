@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" type="text/css" href="style.css" >
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+            <title>
+                Tiki Agency | Home
+            </title>
+
+        </head>
+        <body>
+
+              <nav id='navbar'>
+                <ul id="navbar-ul">
+                  <a href='index.html'><img  id='tiki-logo' src="Resources/Tiki-logo.png"></a>
+                  <section>
+                    <div id='home-gall'>
+                      <li><a href='index.html'>Home</a></li>
+                      <li><a href='gallery.html'>Gallery</a></li>
+                    </div>
+                    <div id='about-contact'>
+                      <li><a href='about.html'>About</a></li>
+                      <li><a href='contact.html'>Contact</a></li>
+                    </div>
+                  </section>
+                </ul>
+              </nav>
+                
+              <header id='header'>
+                <img class='firstimg' src="Resources/img-header.jpg">
+                <h1>Tiki</h1>
+              </header>
+
+              <div id='message'>
+                <h1 id='sech1'>You are just one click away!</h1>
+                <h2 id='h2'>Contact one of our agents <br/> and make your dream vacation a reality.</h2>
+              </div>
+              
+              <div id='img-div'>
+                <button id='left-button' onClick='imgSlideLeft()'><i class="fas fa-angle-left fa-5x"></i></button>
+                <img  id='imgsl' src="./Resources/gal1.jpg" >
+                <button id='right-button' onclick="imgSlideRight()"><i class="fas fa-angle-right fa-5x"></i></button>
+              </div>     
+              
+              <div id='offers'>
+                <div>
+                  <i class="fas fa-globe-americas fa-5x"></i>
+                  <h2>Worldwide destinations</h2>
+                </div>
+                <div>
+                  <i class="fas fa-hotel fa-5x"></i>
+                  <h2>Most exclusive hotels </h2>
+                </div>
+                <div>
+                  <i class="fas fa-plane fa-5x"></i>
+                  <h2>Cheapest transportation </h2>
+                </div>
+              </div>
+
+              <div id='sub-div'>
+                <h1>Subscribe for our newsletter!</h1>
+                <form>
+                  <input  id='email' type="text" name='email' placeholder='email'><br>
+                  <input id='submit' type="submit" value='Submit'>
+                </form>
+              </div>
+              
+              <footer id='footer'>
+                <h3 id='tikiltd'>© 2020 Tiki ltd</h3>
+                <h3 id='links'><a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></h3>
+              </footer>
+        </body>
+
+
+        <script src="JS-Code.js"></script>
+
+
+
+
+
+    </html>
